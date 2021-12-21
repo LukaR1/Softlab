@@ -1,0 +1,74 @@
+* {
+	box-sizing:border-box;		
+}
+		
+h1{
+	color: red;
+}
+		
+.container > div, .conteiner > label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+.container input[type="email"]{
+	width: 100%;
+	padding: 7px;
+}
+
+.container input[type="tel"]{
+	width: 100%;
+	padding: 7px;
+}	
+
+.container input[type="date"]{
+	width: 100%;
+	padding: 7px;
+}
+
+.container input[type="text"]{
+	width: 100%;
+	padding: 7px;
+}
+		
+.container .label-text{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+		
+.container button{
+	color: white;
+	width: 100%;
+	padding: 7px;
+	background-color: green;
+	border: green;
+	display: block;
+}
+		
+form{
+	background-color: lightgray;
+	padding: 7px;
+}
+		
+@media screen and (min-width: 480px) {
+	.container > label, .container > div {
+	padding: 5px;
+	display:flex;
+	}
+			
+	.container .label-text {
+		min-width: 120px;		
+	}
+	.container button {
+		width: auto;
+		margin: 0px 0px 10px 10px; 						
+	}
+	.container input[type="text"]{
+	
+	}    	    			
+				
+			
+	h1{
+				
+	}
+}		
