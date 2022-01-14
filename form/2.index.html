@@ -1,79 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title> SRF </title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="2.index.css">
+    <title> SRF </title>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link href="2.index.css" rel="stylesheet">
 </head>
 <body>
-	<h1>
-	Student Registration Form
-	</h1>
-	<form>
-		<div class="container">		
-			<label>
-				<div class="label-text">First Name:</div>
-				<div>
-				<input type="text" placeholder="enter your first name">
-				</div>
-			</label>
-			<label>
-				<div class="label-text">Last Name:</div>
-				<div>
-				<input type="text" placeholder="enter your last name">
-				</div>
-			</label>
-			<label>
-				<div class="label-text">Email:</div>
-				<div>
-				<input type="email" name="email" placeholder="it should contain @">
-				</div>
-			</label>
-			<label>
-				<div class="label-text">Mobile:</div>
-				<div>
-				<input type="tel" name="mobile" pattern="[0-9]{10}" maxlength="10" placeholder="Only 10 Digits Are Allowed">
-				</div>
-			</label>
-			<div>
-				<div class="label-text">Gender:</div>
-				<div>
-					<label>
-					<input type="radio" name="gender">
-					Male
-					</label>
-					<label>
-					<input type="radio" name="gender">
-					Female
-					</label>
-				</div>
-			</div>
-			<label>
-				<div class="label-text">Date Of Birth:</div>
-				<div> 
-				<input type="date" name="date">
-				</div>
-			</label>
-			<div>
-				<div class="label-text">Specialization:</div>
-				<div>
-					<label>
-					<input type="checkbox" name="computer_science">Computer Science
-					</label><br>
-					<label>
-					<input type="checkbox" name="information_technology">Information Technology
-					</label><br>
-					<label>
-					<input type="checkbox" name="computer_architecture">Computer Architecture
-					</label><br>
-					<label>
-					<input type="checkbox" name="tele_communication">Tele Communication
-					</label>
-				</div>
-			</div>
-			<button type="submit">Register</button>
-		</div>
-	</form>		
+<h1>
+    Student Registration Form
+</h1>
+<form>
+    <div class="container">
+        <label>
+            <div class="label-text">First Name:</div>
+            <div>
+                <input placeholder="enter your first name" type="text">
+            </div>
+        </label>
+        <label>
+            <div class="label-text">Last Name:</div>
+            <div>
+                <input placeholder="enter your last name" type="text">
+            </div>
+        </label>
+        <label>
+            <div class="label-text">Email:</div>
+            <div>
+                <input name="email" placeholder="it should contain @" type="email">
+            </div>
+        </label>
+        <label>
+            <div class="label-text">Mobile:</div>
+            <div>
+                <input maxlength="10" name="mobile" pattern="[0-9]{10}" placeholder="Only 10 Digits Are Allowed"
+                       type="tel">
+            </div>
+        </label>
+        <div>
+            <div class="label-text">Gender:</div>
+            <div>
+                <label>
+                    <input name="gender" type="radio">
+                    Male
+                </label>
+                <label>
+                    <input name="gender" type="radio">
+                    Female
+                </label>
+            </div>
+        </div>
+        <label>
+            <div class="label-text">Date Of Birth:</div>
+            <div>
+                <input name="date" type="date">
+            </div>
+        </label>
+        <div>
+            <div class="label-text">Specialization:</div>
+            <div>
+                <label>
+                    <input name="computer_science" type="checkbox">Computer Science
+                </label><br>
+                <label>
+                    <input name="information_technology" type="checkbox">Information Technology
+                </label><br>
+                <label>
+                    <input name="computer_architecture" type="checkbox">Computer Architecture
+                </label><br>
+                <label>
+                    <input name="tele_communication" type="checkbox">Tele Communication
+                </label>
+            </div>
+        </div>
+        <button type="submit">Register</button>
+    </div>
+</form>
 </body>
 </html>	
